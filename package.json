@@ -1,0 +1,28 @@
+{
+  "name": "petcoccolati",
+  "version": "1.0.0",
+  "description": "API RESTful para la plataforma de servicios petcoccolati.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RanKey1496/PetCoccolatiAPI.git"
+  },
+  "author": "#NoMiente Crew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RanKey1496/PetCoccolatiAPI/issues"
+  },
+  "homepage": "https://github.com/RanKey1496/PetCoccolatiAPI#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.2",
+    "morgan": "^1.7.0"
+  }
+}
